@@ -1,0 +1,35 @@
+{
+ "chart_name": "Completed vs Failed",
+ "chart_type": "Report",
+ "creation": "2026-06-30 01:10:59.301011",
+ "currency": "INR",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2026-06-30 01:11:13.336261",
+ "modified_by": "Administrator",
+ "module": "Task Tracker",
+ "name": "Completed vs Failed",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Task Status Summary",
+ "roles": [],
+ "show_values_over_chart": 0,
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "x_field": "status",
+ "y_axis": [
+  {
+   "color": "#39E4A5",
+   "y_field": "count"
+  }
+ ]
+}

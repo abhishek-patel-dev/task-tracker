@@ -1,0 +1,32 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "width": "Half"
+  },
+  {
+   "chart": "Person Wise Average Score",
+   "width": "Half"
+  },
+  {
+   "chart": "Completed vs Failed",
+   "width": "Half"
+  },
+  {
+   "chart": "Overdue Summary",
+   "width": "Half"
+  }
+ ],
+ "creation": "2026-06-30 00:59:48.240929",
+ "dashboard_name": "Task",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2026-06-30 01:56:07.705825",
+ "modified_by": "Administrator",
+ "module": "Task Tracker",
+ "name": "Task",
+ "owner": "Administrator"
+}
