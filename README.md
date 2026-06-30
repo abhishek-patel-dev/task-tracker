@@ -1,5 +1,5 @@
 
-### Task Tracker
+### ## Task Tracker
 
 Task Assignment & Score Tracker
 
@@ -9,31 +9,29 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app task_tracker
+bench get-app https://github.com/abhishek-patel-dev/task-tracker.git
+bench --site [your-site-name] install-app task-tracker
+bench --site [your-site-name] migrate
+bench restart
 ```
 
-### Contributing
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+## # Python Dependencies Setup
 
-```bash
-cd apps/task_tracker
-pre-commit install
+bench setup requirements
+
+```shell
+cd $PATH_TO_YOUR_BENCH
+bench setup requirements or pip install -r requirements.txt
 ```
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
 
-### License
+### # License
 
 mit
 
-# Task Assignment & Score Tracker
+# # Project 1--> Task Assignment & Score Tracker
 
 A custom Frappe application developed as part of the Technical Assessment.
 
@@ -58,7 +56,6 @@ A custom Frappe application developed as part of the Technical Assessment.
 
 ---
 
-
 ## Workflow
 
 ### Step 1
@@ -74,9 +71,7 @@ Fill:
 
 Save.
 
-
 ![1782778604087](image/README/1782778604087.png)
-
 
 ### Step 2
 
@@ -92,7 +87,6 @@ Extension Count increases automatically.
 
 Score updates automatically.
 
-
 | Extension | Score |
 | --------- | ----- |
 | 0         | 100   |
@@ -103,17 +97,13 @@ Score updates automatically.
 
 ![1782778823135](image/README/1782778823135.png)
 
-
 ![1782778858271](image/README/1782778858271.png)
-
-
 
 ### Step 4
 
 After 4 extensions,
 
 Status becomes **Failed** automatically.
-
 
 ![1782778926667](image/README/1782778926667.png)
 
@@ -138,14 +128,11 @@ Shows
 
 ![1782779186893](image/README/1782779186893.png)
 
-
 ### 3- Overdue Tasks
 
 Displays all overdue tasks excluding completed tasks.
 
 ![1782779132194](image/README/1782779132194.png)
-
-
 
 ## #  Dashboard
 
@@ -155,7 +142,6 @@ Dashboard includes
 * Completed vs Failed
 * Overdue Tasks
 
-
 ![1782779274579](image/README/1782779274579.png)
 
 ## Project 2: MIS Sales Dashboard from Raw Data
@@ -164,28 +150,21 @@ link : [docs.google.com/spreadsheets/d/1eHtpu1tPmXPKBzi1wAREm0cr-ARi0Idz/edit?us
 
 1- month to month trend
 
-
 ![1782780025143](image/README/1782780025143.png)
-
 
 2- Top 5 project
 
 ![1782780066519](image/README/1782780066519.png)
 
-
 3- Regon wise performance
-
 
 ![1782780108154](image/README/1782780108154.png)
 
-
 4- salesperson wise performance
-
 
 ![1782780129509](image/README/1782780129509.png)
 
-
-## --> AI-Powered Email Automation System (Project 3 Overview)
+## Project 3--> AI-Powered Email Automation System
 
 This section of the project automates customer relationship management by using Artificial Intelligence to reactivate high-value enterprise clients who haven't placed an order in over 60 days.
 
@@ -220,7 +199,4 @@ The automation script executes the logic seamlessly through the following struct
 
 ![1782781020030](image/README/1782781020030.png)
 
-
-
 ![1782781059795](image/README/1782781059795.png)
-
